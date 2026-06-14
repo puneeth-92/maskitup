@@ -10,7 +10,7 @@ function App() {
   const handleMask = async () => {
     try {
       setLoading(true);
-      const response = await fetch("http://localhost:6969/mask", {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/mask`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
