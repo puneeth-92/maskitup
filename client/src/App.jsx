@@ -64,7 +64,7 @@ function App() {
     <div className="container">
       <h1 className="title">
         <span className="gradient-text">MaskItUp</span>
-      </h1>
+      </h1><br />
 
       <p className="subtitle">
         Detect and mask sensitive information instantly
