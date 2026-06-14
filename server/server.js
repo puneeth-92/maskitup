@@ -32,6 +32,6 @@ app.post("/mask", async (req, res) => {
     });
 });
 
-app.listen(6969,()=>{
+app.listen(process.env.PORT || 6969,()=>{
     console.log("server is running");
 })
